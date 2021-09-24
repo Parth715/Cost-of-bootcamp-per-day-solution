@@ -6,9 +6,9 @@ namespace Cost_of_bootcamp_per_day
     {
         static void Main(string[] args)
         {
-            decimal TotalPrice = 15500;
-            int TotalDays = 65;
-            decimal PerDayCost = Math.Round(TotalPrice / TotalDays, 2);
+            var TotalPrice = 15500m;
+            var TotalDays = 65;
+            var PerDayCost = Math.Round(TotalPrice / TotalDays, 2);
             Console.WriteLine($"Each day of bootcamp will cost ${PerDayCost}");
         }
     }
